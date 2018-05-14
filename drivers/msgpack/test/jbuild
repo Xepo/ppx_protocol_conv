@@ -10,7 +10,7 @@
  ((name       test_types)
   (modules    (test_types))
   (libraries  (protocol_conv_msgpack))
-  (preprocess (pps (ppx_protocol_conv ppx_driver.runner)))
+  (preprocess (pps (ppx_protocol_conv ppxlib.runner)))
 ))
 
 

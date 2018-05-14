@@ -1,6 +1,6 @@
 open Base
 open !Ppx_type_conv.Std
-open Ppx_core
+open Ppxlib
 open Ast_builder.Default
 open !Printf
 

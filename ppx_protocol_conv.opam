@@ -10,7 +10,7 @@ version: "3.0.0"
 depends: [
   "base"
   "ppx_type_conv"
-  "ppx_driver"
+  "ppxlib"
   "ppx_core"
   "jbuilder" {build}
   "ppx_metaquot" {build}
